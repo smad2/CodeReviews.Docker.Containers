@@ -54,16 +54,9 @@ docker run --rm mathgame:dev
 # Basic execution
 docker run --rm mathgame:v1
 
-# With command-line arguments
-docker run --rm mathgame:v1 difficulty=hard username=player1
+# Make it interactive
+docker run -it --rm mathgame:v1
 ```
-
-## Available Arguments
-
-- `difficulty`: easy, medium, hard
-- `username`: Player name
-- `mode`: practice, timed, survival
-- `level`: beginner, intermediate, advanced
 
 ## Image Versions
 
